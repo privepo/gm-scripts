@@ -1,0 +1,31 @@
+GMSCRIPTS:
+
+Path: svn
+URL: file:///myplace/repos/gmscripts/svn
+Repository Root: file:///myplace/repos/gmscripts/svn
+Repository UUID: c60b5a73-901f-46cd-aa9d-e48be8652c3a
+Revision: 6
+Node Kind: directory
+Last Changed Author: eotect
+Last Changed Rev: 6
+Last Changed Date: 2010-11-21 01:47:28 +0800 (Sun, 21 Nov 2010)
+
+------------------------------------------------------------------------
+r6 | eotect | 2010-11-21 01:47:28 +0800 (Sun, 21 Nov 2010) | 1 line
+
+updated "searchdirectly.user.js"
+------------------------------------------------------------------------
+
+Path  : git
+Date  : 2010-11-20 17:47:28 +0000
+Author: Nahn Eoetct
+Commit: 656614a9627d0121e976aa2243c3cec2d6e83916
+
+    updated "searchdirectly.user.js"
+
+git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-ecc6-4271-bebf-5fcae5a25bf2
+
+
+ config.xml             |    1 +
+ searchdirectly.user.js |    1 +
+ 2 files changed, 2 insertions(+), 0 deletions(-)
