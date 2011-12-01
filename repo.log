@@ -29,3 +29,23 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
+GM-SCRIPTS [GIT] commit 1f0ce7f0: Update global_panel.
+
+
+Path  : git
+Date  : 2011-11-19 23:38:51 +0800
+Author: Eotect Nahn
+Commit: 1f0ce7f08d10b614cf7dda75e547a62283bf2198
+
+    Update global_panel.
+
+
+
+ add_image_elements/add_image_elements.user.js   |    1 +
+ config.xml                                      |   49 ++++++++++++-----------
+ eotect_golbal_panel/eotect_golbal_panel.user.js |   12 +++--
+ randomformfiller/randomformfiller.user.js       |    1 +
+ 4 files changed, 34 insertions(+), 29 deletions(-)
+
+================================================================================
+
