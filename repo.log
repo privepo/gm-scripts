@@ -29,27 +29,20 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit 19b2f15d: Add "Github mod", "IFileit Auto Request", "Secure HTTP", and "Depositfiles Download".
+GM-SCRIPTS [GIT] commit a8f05bb3: Add .reposman.
 
 
 Path  : git
-Date  : 2011-12-10 14:32:25 +0800
+Date  : 2011-12-14 03:20:21 +0800
 Author: Eotect Nahn
-Commit: 19b2f15d702b89a394be63a7e1b47dae96e7f2d9
+Commit: a8f05bb32f129d0f7d691a044391dc0b2edae456
 
-    Add "Github mod", "IFileit Auto Request", "Secure HTTP", and "Depositfiles Download".
+    Add .reposman.
 
 
 
- .PROJECTS                                          |    1 +
- .reposman                                          |    1 +
- config.xml                                         |   17 +-
- .../depositfiles_download_ti.user.js               |  291 ++++++++++++++++++++
- github_mod/github_mod.user.js                      |   14 +
- google_mod/google_mod.user.js                      |    1 -
- .../ifileit_auto_request_dow.user.js               |   22 ++
- secure_http/secure_http.user.js                    |   18 ++
- 8 files changed, 362 insertions(+), 3 deletions(-)
+ .reposman |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
 
 ================================================================================
 
