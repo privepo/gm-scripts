@@ -29,24 +29,27 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit 45a45788: Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
+GM-SCRIPTS [GIT] commit 58eb8325: Update imagealbumpanel, parts of code moved to data_miner.js.
 
 
 Path  : git
-Date  : 2011-12-15 12:08:39 +0800
+Date  : 2011-12-16 04:18:39 +0800
 Author: Eotect Nahn
-Commit: 45a457882fb6690327047d773a8c768c00284435
+Commit: 58eb83257469dd5760ddce0720abe2a74fee5594
 
-    Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
+    Update imagealbumpanel, parts of code moved to data_miner.js.
 
 
 
- config.xml                                      |   45 +++++-----
- eotect_golbal_panel/eotect_golbal_panel.user.js |    2 +-
- google_mod/google_mod.user.js                   |   16 ++--
- imagealbumpanel/imagealbumpanel.user.js         |   63 +++++++++++---
- linksnavigator.user.js                          |  103 ++++++++++++++---------
- 5 files changed, 145 insertions(+), 84 deletions(-)
+ config.xml                                    |   87 +--
+ google_mod/google_mod.user.js                 |    2 +-
+ imagealbumpanel/data_miner.js                 |  279 +++++++
+ imagealbumpanel/imagealbumpanel.user.js       |  644 ++++++-----------
+ linksnavigator.user.js                        |  145 ++--
+ redirectionhelper-1/redirectionhelper.user.js |  313 --------
+ source/data_miner.js                          |  279 +++++++
+ source/imagealbumpanel.user.js                |  963 ++++++++++++++-----------
+ 8 files changed, 1426 insertions(+), 1286 deletions(-)
 
 ================================================================================
 
