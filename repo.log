@@ -29,20 +29,24 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit a8f05bb3: Add .reposman.
+GM-SCRIPTS [GIT] commit 45a45788: Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
 
 
 Path  : git
-Date  : 2011-12-14 03:20:21 +0800
+Date  : 2011-12-15 12:08:39 +0800
 Author: Eotect Nahn
-Commit: a8f05bb32f129d0f7d691a044391dc0b2edae456
+Commit: 45a457882fb6690327047d773a8c768c00284435
 
-    Add .reposman.
+    Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
 
 
 
- .reposman |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ config.xml                                      |   45 +++++-----
+ eotect_golbal_panel/eotect_golbal_panel.user.js |    2 +-
+ google_mod/google_mod.user.js                   |   16 ++--
+ imagealbumpanel/imagealbumpanel.user.js         |   63 +++++++++++---
+ linksnavigator.user.js                          |  103 ++++++++++++++---------
+ 5 files changed, 145 insertions(+), 84 deletions(-)
 
 ================================================================================
 
