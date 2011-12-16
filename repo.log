@@ -29,27 +29,23 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit 58eb8325: Update imagealbumpanel, parts of code moved to data_miner.js.
+GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
 
 
 Path  : git
-Date  : 2011-12-16 04:18:39 +0800
+Date  : 2011-12-17 05:02:27 +0800
 Author: Eotect Nahn
-Commit: 58eb83257469dd5760ddce0720abe2a74fee5594
+Commit: bbe23fc28d81a280aa98cb2b352dd611970262ff
 
-    Update imagealbumpanel, parts of code moved to data_miner.js.
+    Update imagealbumpanel.
 
 
 
- config.xml                                    |   87 +--
- google_mod/google_mod.user.js                 |    2 +-
- imagealbumpanel/data_miner.js                 |  279 +++++++
- imagealbumpanel/imagealbumpanel.user.js       |  644 ++++++-----------
- linksnavigator.user.js                        |  145 ++--
- redirectionhelper-1/redirectionhelper.user.js |  313 --------
- source/data_miner.js                          |  279 +++++++
- source/imagealbumpanel.user.js                |  963 ++++++++++++++-----------
- 8 files changed, 1426 insertions(+), 1286 deletions(-)
+ .PROJECTS                               |    1 -
+ config.xml                              |   16 ++--
+ imagealbumpanel/data_miner.js           |   15 +++-
+ imagealbumpanel/imagealbumpanel.user.js |  138 ++++++++++++++++---------------
+ 4 files changed, 96 insertions(+), 74 deletions(-)
 
 ================================================================================
 
