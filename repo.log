@@ -29,13 +29,13 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
+GM-SCRIPTS [GIT] commit 4a4fee26: Add user scripts.
 
 
 Path  : git
 Date  : 2011-12-30 02:29:06 +0800
-Author: Afun Nahn
-Commit: 3aac91c08d8633090b153559702baa5307dada1f
+Author: Eotect Nahn
+Commit: 4a4fee266e8cbbd290b0740e1667c850f1d607df
 
     Add user scripts.
 
