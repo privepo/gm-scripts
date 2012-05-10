@@ -29,26 +29,22 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit 089db828: Update randomformfiller.
+GM-SCRIPTS [GIT] commit bb6fe7b7: Update imagealbumpanel and pages_lister.
 
 
 Path  : git
-Date  : 2012-04-22 09:11:08 +0800
+Date  : 2012-05-06 21:34:47 +0800
 Author: Eoetct Nahn
-Commit: 089db828969e67ed44ccb3ef3c94e5c462f3c4f0
+Commit: bb6fe7b71fcb080a80e4415243cc300cbc4e0a01
 
-    Update randomformfiller.
+    Update imagealbumpanel and pages_lister.
 
 
 
- Bypass_Script2.0/127920.user.js               |  506 +++++++++++++++++++++++++
- add_image_elements/add_image_elements.user.js |   36 --
- config.xml                                    |  163 ++++++--
- google_mod/google_mod.user.js                 |    3 +-
- imagealbumpanel/imagealbumpanel.user.js       |   80 +++-
- linksnavigator.user.js                        |    1 +
- randomformfiller/randomformfiller.user.js     |   84 ++--
- 7 files changed, 763 insertions(+), 110 deletions(-)
+ config.xml                              |   16 ++++------------
+ imagealbumpanel/imagealbumpanel.user.js |    6 ++++++
+ pages_lister/pages_lister.user.js       |    7 +++----
+ 3 files changed, 13 insertions(+), 16 deletions(-)
 
 ================================================================================
 
