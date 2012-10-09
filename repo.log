@@ -29,22 +29,35 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit bb6fe7b7: Update imagealbumpanel and pages_lister.
+GM-SCRIPTS [GIT] commit a691d276: Update lots of scripts.
 
 
 Path  : git
-Date  : 2012-05-06 21:34:47 +0800
+Date  : 2012-10-10 03:23:34 +0800
 Author: Eoetct Nahn
-Commit: bb6fe7b71fcb080a80e4415243cc300cbc4e0a01
+Commit: a691d276b73142028a420efa547a49454d90c377
 
-    Update imagealbumpanel and pages_lister.
+    Update lots of scripts.
 
 
 
- config.xml                              |   16 ++++------------
- imagealbumpanel/imagealbumpanel.user.js |    6 ++++++
- pages_lister/pages_lister.user.js       |    7 +++----
- 3 files changed, 13 insertions(+), 16 deletions(-)
+ Anti-Disabler/30096.user.js                        |   62 +
+ Facebook_Large_Images/109842.user.js               |   35 +
+ Inline_Thumbnail/106779.user.js                    | 1283 ++++++++++++++++++++
+ Inline_Thumbnail_Default_Setting/112417.user.js    |   27 +
+ ShowBookmarks/ShowBookmarks.user.js                |   18 +
+ config.xml                                         |  237 +++-
+ eotect_golbal_panel/eotect_golbal_panel.user.js    |   19 +-
+ form_filler/form_filler.user.js                    |  248 +++-
+ google_mod/google_mod.user.js                      |   72 +-
+ ikeepuMod/.ikeepuMod.user.js.swp                   |  Bin 0 -> 12288 bytes
+ ikeepuMod/ikeepuMod.user.js                        |   32 +
+ inline_thumbnail/inline_thumbnail.user.js          | 1204 ------------------
+ .../inline_thumbnail_default.user.js               |   26 -
+ objects-catcher/objects-catcher.user.js            |   60 +-
+ randomformfiller/randomformfiller.user.js          |   26 +-
+ secure_http/secure_http.user.js                    |    8 +-
+ 16 files changed, 1980 insertions(+), 1377 deletions(-)
 
 ================================================================================
 
