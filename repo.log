@@ -29,35 +29,25 @@ git-svn-id: https://pl3.projectlocker.com/eotect/gmscripts/svn/trunk@6 48bfec52-
  config.xml             |    1 +
  searchdirectly.user.js |    1 +
  2 files changed, 2 insertions(+), 0 deletions(-)
-GM-SCRIPTS [GIT] commit a691d276: Update lots of scripts.
+GM-SCRIPTS [GIT] commit 7452f17c: Update source.
 
 
 Path  : git
-Date  : 2012-10-10 03:23:34 +0800
-Author: Eoetct Nahn
-Commit: a691d276b73142028a420efa547a49454d90c377
+Date  : 2014-05-08 02:51:07 +0800
+Author: Eotect Nahn
+Commit: 7452f17c29f96f20d3915056eb287c1e27931d61
 
-    Update lots of scripts.
+    Update source.
 
 
 
- Anti-Disabler/30096.user.js                        |   62 +
- Facebook_Large_Images/109842.user.js               |   35 +
- Inline_Thumbnail/106779.user.js                    | 1283 ++++++++++++++++++++
- Inline_Thumbnail_Default_Setting/112417.user.js    |   27 +
- ShowBookmarks/ShowBookmarks.user.js                |   18 +
- config.xml                                         |  237 +++-
- eotect_golbal_panel/eotect_golbal_panel.user.js    |   19 +-
- form_filler/form_filler.user.js                    |  248 +++-
- google_mod/google_mod.user.js                      |   72 +-
- ikeepuMod/.ikeepuMod.user.js.swp                   |  Bin 0 -> 12288 bytes
- ikeepuMod/ikeepuMod.user.js                        |   32 +
- inline_thumbnail/inline_thumbnail.user.js          | 1204 ------------------
- .../inline_thumbnail_default.user.js               |   26 -
- objects-catcher/objects-catcher.user.js            |   60 +-
- randomformfiller/randomformfiller.user.js          |   26 +-
- secure_http/secure_http.user.js                    |    8 +-
- 16 files changed, 1980 insertions(+), 1377 deletions(-)
+ config.xml                                  |   12 ++-
+ source/myplace.baidu.yun.common.user.js     |    1 +
+ source/myplace.baidu.yun.share.home.user.js |  133 ++++++++++++++++++++++----
+ source/myplace.imagesalbum.user.js          |   99 ++++++++++++++++----
+ source/myplace.lib.dataminer.js             |    2 +-
+ source/myplace.lib.datashower.js            |   89 +++++++++++++-----
+ 6 files changed, 267 insertions(+), 69 deletions(-)
 
 ================================================================================
 
